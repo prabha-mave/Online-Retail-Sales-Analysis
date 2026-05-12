@@ -17,6 +17,16 @@ The project includes:
 
 ---
 
+## Dashboard Screenshots
+
+### Overview Dashboard
+![Overview Dashboard](overview.png)
+
+### Details Dashboard
+![Details Dashboard](details.png)
+
+---
+
 ## Data Cleaning
 Basic data cleaning was performed in Excel:
 - Removed/handled null values
@@ -67,17 +77,7 @@ An interactive Power BI dashboard was developed to visualize:
 - Certain products consistently dominated total sales volume
 - Returning customers generated higher revenue contribution
 - Sales activity peaked during specific business hours
-
----
-
-## Dashboard Screenshots
-
-### Overview Dashboard
-![Overview Dashboard](overview.png)
-
-### Details Dashboard
-![Details Dashboard](details.png)
-
+  
 ---
 
 ## Files Included
