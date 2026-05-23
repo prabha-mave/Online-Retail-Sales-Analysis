@@ -1,22 +1,77 @@
-# Online Retail Sales Analysis: End-to-End Data Analytics
+# Online Retail Sales Analysis
 
-## 📌 Project Overview
-This project provides a comprehensive analysis of online retail sales data to uncover customer purchasing behavior, sales performance trends, and revenue patterns. By integrating **Excel**, **PostgreSQL**, and **Power BI**, the project demonstrates a complete analytics workflow—from raw data cleaning to interactive dashboard reporting.
-
-### Key Objectives
-- Identify high-value customers and top-performing products
-- Analyze revenue trends across time and geography
-- Perform customer segmentation using RFM Analysis
-- Discover purchasing behavior and sales patterns
-- Build an interactive dashboard for business insights
+## Introduction
+This project analyzes online retail sales data to uncover customer behavior, revenue trends, and product performance using Excel, PostgreSQL, and Power BI.
 
 ---
 
-## 🛠️ Tech Stack
-- **Data Cleaning & Preparation:** Microsoft Excel
-- **Database & Analysis:** PostgreSQL
-- **Data Visualization:** Power BI
-- **Documentation:** Markdown
+## Data Collection
+Dataset includes:
+- Customer ID
+- Invoice Number
+- Product Description
+- Quantity
+- Unit Price
+- Invoice Date
+- Country
+
+---
+
+## Data Cleaning
+Preprocessing steps include:
+- Handling null values
+- Removing duplicate records
+- Standardizing date & numeric formats
+- Preparing data for SQL analysis and dashboarding
+
+---
+
+## Data Analysis
+Key analysis performed:
+- RFM Customer Segmentation
+- Monthly & Quarterly Revenue Trends
+- Peak Sales Hour Analysis
+- Country-wise Revenue Analysis
+- Top-Selling Products
+- Returning vs New Customer Analysis
+- Market Basket Analysis
+
+---
+
+## Data Visualization
+Dashboard insights include:
+- Revenue & Order KPIs
+- Sales Trend Analysis
+- Country-wise Sales Mapping
+- Product Performance Tracking
+- Interactive Filters & Drilldowns
+
+---
+
+## Tech Stack
+- Excel
+- PostgreSQL
+- Power BI
+- Markdown
+
+---
+
+## Tools & Concepts Used
+- Excel Data Cleaning
+- PostgreSQL Queries
+- Power BI Dashboarding
+- RFM Analysis
+- Market Basket Analysis
+- KPI Reporting
+
+---
+
+## Key Insights
+- United Kingdom generated the highest revenue
+- Returning customers contributed higher sales
+- Revenue peaked during Q4
+- High-value customers drove major revenue share
+- Sales activity increased during business hours
 
 ---
 
@@ -28,58 +83,17 @@ This project provides a comprehensive analysis of online retail sales data to un
 ### 2. Details Dashboard
 ![Details Dashboard](details.png)
 
----
-
-## 🧼 Data Cleaning (Excel)
-Before analysis, the dataset was cleaned and prepared using Excel to ensure data integrity.
-
-### Cleaning Steps Performed
-- Removed/handled null values in critical fields (e.g., Customer IDs)
-- Checked and removed duplicate records to prevent revenue inflation
-- Standardized formatting for dates and numeric columns for SQL compatibility
-- Prepared dataset for relational database import and dashboard creation
 
 ---
 
-## ⌨️ Business Analysis (SQL)
-Using **PostgreSQL**, multiple analytical queries were performed to solve business problems and uncover actionable insights.
-
-### Key Analysis Performed
-*   **Customer Segmentation:** RFM Analysis (Recency, Frequency, Monetary)
-*   **Sales Trends:** Monthly Revenue, Peak Sales Hours, and Revenue by Weekday
-*   **Product Performance:** Top-selling products and Product Velocity analysis
-*   **Geographic Insights:** Revenue contribution by country
-*   **Advanced Analytics:** Market Basket Analysis and New vs. Returning customer revenue
+## Files Included
+- Power BI Dashboard (.pbix)
+- SQL Queries (.sql)
+- Dashboard Screenshots (.png)
+- Documentation (README.md)
 
 ---
 
-## 📈 Power BI Dashboard Insights
-An interactive multi-page Power BI dashboard was developed to visualize sales performance and customer behavior.
-
-### Dashboard Features
-- **KPI Tracking:** Real-time cards for Revenue, Orders, and Average Revenue
-- **Trend Visuals:** Weekly and Quarterly revenue growth distribution
-- **Mapping:** Country-wise sales distribution
-- **Granular Detail:** Detailed transaction-level insights with interactive filters
-
+## Author
+Prabha R
 ---
-
-## 💡 Key Insights
-- **United Kingdom** generated the highest overall revenue compared to other regions.
-- Revenue showed a strong growth trend toward the end of the year (**Q4**).
-- A small group of high-value customers contributed significantly to total revenue.
-- **Returning customers** showed a higher revenue contribution than new customers.
-- Sales activity peaked during specific business hours, identifying optimal windows for marketing.
-
----
-
-## 🚀 Files Included
-- **Power BI Dashboard File:** `.pbix`
-- **PostgreSQL SQL Script:** `.sql`
-- **Dashboard Screenshots:** `.png` files
-- **Documentation:** `README.md`
-
----
-
-## 👤 Author
-**Prabha R**
