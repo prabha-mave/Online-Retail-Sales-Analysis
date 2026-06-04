@@ -5,6 +5,16 @@ This project analyzes online retail sales data to uncover customer behavior, rev
 
 ---
 
+## 📊 Dashboard Screenshots
+
+### 1. Overview Dashboard
+![Overview Dashboard](images/overview.png)
+
+### 2. Details Dashboard
+![Details Dashboard](images/details.png)
+
+---
+
 ## Data Collection
 Dataset includes:
 - Customer ID
@@ -72,17 +82,6 @@ Dashboard insights include:
 - Revenue peaked during Q4
 - High-value customers drove major revenue share
 - Sales activity increased during business hours
-
----
-
-## 📊 Dashboard Screenshots
-
-### 1. Overview Dashboard
-![Overview Dashboard](overview.png)
-
-### 2. Details Dashboard
-![Details Dashboard](details.png)
-
 
 ---
 
